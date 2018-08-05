@@ -25,5 +25,4 @@ def kesha_maker(words)
   words.each do |word|
     word[2] = "$"
   end
-  words
 end
