@@ -36,5 +36,5 @@ def sum_array(array)
 end
 
 def add_s(words)
-  words.each_with_index.collect {|word, index| index != 2 ? word + "s" : word}
+  words.each_with_index.collect {|word, index| index != 1 ? word + "s" : word}
 end
