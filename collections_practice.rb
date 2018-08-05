@@ -28,5 +28,5 @@ def kesha_maker(words)
 end
 
 def find_a(words)
-  words.select { |word| word.start_with("a") }
+  words.select { |word| word.start_with?("a") }
 end
